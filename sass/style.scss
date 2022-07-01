@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+$swatch_1: #f8f7f2;
+$swatch_2: #90a382;
+$swatch_3: #020403;
+$swatch_4: #d0c2b0;
+$swatch_5: #636961;
+$swatch_6: #be5a43;
+$swatch_7: #9d9f77;
 
 html {
   body {
@@ -9,7 +16,7 @@ html {
     height: 100vh;
     font-family: 'Inter', sans-serif !important;
     font-size: 15px !important;
-    color: #2155CD;
+    color: $swatch_3;
 
     .main-container {
       height: 100vh;
@@ -17,15 +24,15 @@ html {
 
       nav.nav-bar {
         z-index: 4;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .10), 0 6px 20px 0 rgba(0, 0, 0, .10);
+        box-shadow: -16px -35px 39px -38px rgba(0, 0, 0, .10), 0 6px 20px 0 rgba(0, 0, 0, .10);
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 100%;
         width: 8%;
-        background-color: #E8F9FD;
-        color: #2155CD;
+        background-color: $swatch_3;
+        color: $swatch_1;
 
 
         div.logo-area {
@@ -59,15 +66,18 @@ html {
             a {
               display: inline-flex;
               flex-direction: column;
-              color: #2155CD !important;
+              color: $swatch_3 !important;
               line-height: normal;
 
               i {
                 font-size: 30px;
+                color: $swatch_1;
               }
 
               &>* {
                 margin: 5px;
+                color: $swatch_4;
+
               }
             }
           }
@@ -77,13 +87,16 @@ html {
       .container {
         height: 100%;
         width: 100%;
-        background-color: #E8F9FD;
+        background-color: $swatch_1;
 
+        span.uk-icon {
+          color: $swatch_6
+        }
 
         .header {
           flex-basis: 10%;
-          background-color: #E8F9FD;
-          box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.20);
+          background-color: $swatch_1;
+          box-shadow: 0 -5px 25px 0 rgba(31, 38, 135, 0.20);
 
 
 
@@ -91,12 +104,13 @@ html {
             margin: 0;
             padding-left: 20px;
             font-family: 'Inter', sans-serif !important;
-            color: #666666;
+            color: $swatch_3;
             text-transform: uppercase;
           }
 
           div.user-area {
             padding-right: 20px;
+            color: $swatch_3;
           }
 
 
@@ -133,7 +147,7 @@ html {
                 border-radius: 10px;
                 height: 250px;
                 background: rgba(255, 255, 255, 0.1);
-                box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.20);
+                box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.20);
                 backdrop-filter: blur(0px);
                 -webkit-backdrop-filter: blur(0px);
                 display: flex;
@@ -151,6 +165,7 @@ html {
 
                 i {
                   font-size: 30px;
+                  color: $swatch_6;
                 }
 
                 h3 {
@@ -158,7 +173,7 @@ html {
                 }
 
                 .card-num {
-                  color: #0AA1DD;
+                  color: $swatch_3;
                 }
               }
             }
@@ -189,7 +204,7 @@ html {
                 width: 500px;
                 height: 250px;
                 background: rgba(248, 240, 223, 0.2);
-                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.37);
                 backdrop-filter: blur(0px);
                 -webkit-backdrop-filter: blur(0px);
                 border-radius: 10px;
@@ -207,7 +222,8 @@ html {
                         font-size: 150px;
                         height: auto;
                         padding: 3px;
-                        border: 1px solid #2155CD;
+                        border: 1px solid $swatch_7;
+                        color: $swatch_7;
                       }
                     }
 

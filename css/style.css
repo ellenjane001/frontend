@@ -7,7 +7,7 @@ html body {
   height: 100vh;
   font-family: 'Inter', sans-serif !important;
   font-size: 15px !important;
-  color: #2155CD;
+  color: #020403;
 }
 
 html body .main-container {
@@ -19,8 +19,8 @@ html body .main-container {
 
 html body .main-container nav.nav-bar {
   z-index: 4;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -16px -35px 39px -38px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: -16px -35px 39px -38px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,8 +34,8 @@ html body .main-container nav.nav-bar {
           align-items: center;
   height: 100%;
   width: 8%;
-  background-color: #E8F9FD;
-  color: #2155CD;
+  background-color: #020403;
+  color: #f8f7f2;
 }
 
 html body .main-container nav.nav-bar div.logo-area {
@@ -93,42 +93,49 @@ html body .main-container nav.nav-bar .navigation li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #2155CD !important;
+  color: #020403 !important;
   line-height: normal;
 }
 
 html body .main-container nav.nav-bar .navigation li a i {
   font-size: 30px;
+  color: #f8f7f2;
 }
 
 html body .main-container nav.nav-bar .navigation li a > * {
   margin: 5px;
+  color: #d0c2b0;
 }
 
 html body .main-container .container {
   height: 100%;
   width: 100%;
-  background-color: #E8F9FD;
+  background-color: #f8f7f2;
+}
+
+html body .main-container .container span.uk-icon {
+  color: #be5a43;
 }
 
 html body .main-container .container .header {
   -ms-flex-preferred-size: 10%;
       flex-basis: 10%;
-  background-color: #E8F9FD;
-  -webkit-box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.2);
-          box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.2);
+  background-color: #f8f7f2;
+  -webkit-box-shadow: 0 -5px 25px 0 rgba(31, 38, 135, 0.2);
+          box-shadow: 0 -5px 25px 0 rgba(31, 38, 135, 0.2);
 }
 
 html body .main-container .container .header h1 {
   margin: 0;
   padding-left: 20px;
   font-family: 'Inter', sans-serif !important;
-  color: #666666;
+  color: #020403;
   text-transform: uppercase;
 }
 
 html body .main-container .container .header div.user-area {
   padding-right: 20px;
+  color: #020403;
 }
 
 html body .main-container .container .container-wrapper {
@@ -184,8 +191,8 @@ html body .main-container .container .container-wrapper .container-top .containe
   border-radius: 10px;
   height: 250px;
   background: rgba(255, 255, 255, 0.1);
-  -webkit-box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.2);
-          box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.2);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.2);
+          box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   display: -webkit-box;
@@ -208,6 +215,7 @@ html body .main-container .container .container-wrapper .container-top .containe
 
 html body .main-container .container .container-wrapper .container-top .container-top-wrapper .container-glass i {
   font-size: 30px;
+  color: #be5a43;
 }
 
 html body .main-container .container .container-wrapper .container-top .container-top-wrapper .container-glass h3 {
@@ -215,7 +223,7 @@ html body .main-container .container .container-wrapper .container-top .containe
 }
 
 html body .main-container .container .container-wrapper .container-top .container-top-wrapper .container-glass .card-num {
-  color: #0AA1DD;
+  color: #020403;
 }
 
 html body .main-container .container .container-wrapper .container-bottom {
@@ -262,8 +270,8 @@ html body .main-container .container .container-wrapper .container-bottom .conta
   width: 500px;
   height: 250px;
   background: rgba(248, 240, 223, 0.2);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -283,7 +291,8 @@ html body .main-container .container .container-wrapper .container-bottom .conta
   font-size: 150px;
   height: auto;
   padding: 3px;
-  border: 1px solid #2155CD;
+  border: 1px solid #9d9f77;
+  color: #9d9f77;
 }
 
 html body .main-container .container .container-wrapper .container-bottom .container-bottom-wrapper .container-bottom-glass .id .left .sign {
