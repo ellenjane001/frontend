@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,AAAA,MAAM,AAAC,CACnB,MAAM,CCAC,OAAO,CDAI,KAAK,CAAC,MAAM,CACjC",
+    "sources": [
+        "../sass/index.scss",
+        "../sass/partials/_colors.scss"
+    ],
+    "names": [],
+    "file": "index.min.css"
+}

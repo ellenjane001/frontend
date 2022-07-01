@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="nav-bar">
+            <div class="logo-area">
+                <i class="fas fa-wallet"></i>
+                <span class="navbar-lbl">myWallet</span>
+            </div>
+            <ul class="uk-iconnav uk-iconnav-vertical navigation">
+                <li><a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span class="navbar-menu-lbl">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="far fa-credit-card"></i>
+                        <span class="navbar-menu-lbl">Manage Cards</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-wrench"></i>
+                        <span class="navbar-menu-lbl">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="header uk-flex uk-flex-between uk-flex-middle">
+                <h1>Manage Cards</h1>
+                <div class="user-area">
+                    <button type="button" uk-icon="icon: user; ratio:2;"></button>
+                    <div uk-dropdown>
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li> <a href="#"> User Profile</a></li>
+                            <li> <a href="#"> Logout</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-wrapper">
+                <form id="add-card-form">
+                    
+                </form>
+            </div>
+
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
